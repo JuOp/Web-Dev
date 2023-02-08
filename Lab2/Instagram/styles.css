@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100hv;
+    width: 100%;
+    background-color: #fafafa;
+    overflow: visible;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.image-section {
+    flex: 0 0 55%;
+}
+
+.login-section {
+    flex: 0 0 45%;
+    padding-top: 30px;
+}
+
+.log-in {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.log-in input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fafafa;
+    border:  1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #262626;
+    font-size: 12px;
+    outline: none;
+}
+
+.log-in button {
+    width: 100%;
+    background-color: rgb(0, 149, 246);
+    color:#ffffff;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin: 10px 0;
+    line-height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or span {
+    display: block;
+    background-color: #dbdbdb;
+    height: 1px;
+    width: 100%;
+}
+
+.or p {
+    margin: 0 5%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+a.facebook-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+}
+
+a.facebook-login img{
+    width: 16px;
+    margin-right: 10px;
+}
+
+a.facebook-login p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #385185;
+}
+
+a.forgot-password {
+    color: #00376b;
+    font-size: 12px;
+}
+
+.sign-up {
+    margin-top: 16px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.get-the-app {
+    margin-top: 16px;
+}
+
+
+.get-the-app p {
+    text-align: center;
+}
+
+.get-the-app a {
+    margin: 0 8px;
+}
+
+.get-the-app a img{
+    width: 130px;
+}
+
+.stores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ol li {
+    margin: 0 5px;
+}
+
+footer ol li a {
+    color: #8e8e8e;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+footer select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 16px;
+    color: #8e8e8e;
+}
+
+footer small {
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.languages {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

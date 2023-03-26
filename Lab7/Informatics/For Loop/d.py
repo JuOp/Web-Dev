@@ -1,0 +1,2 @@
+number = input()
+digit = input()
